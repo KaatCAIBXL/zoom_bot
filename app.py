@@ -1,6 +1,6 @@
-from flask import Flask, request
+from flask import Flask
 
-app = Flask(traductionCAI)
+app = Flask(__name__)
 
 @app.route("/zoom-bot-endpoint", methods=["POST"])
 def zoom_bot():
